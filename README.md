@@ -32,13 +32,25 @@ The internship is divided into 3 levels, with 3 tasks per level. Any 2 tasks per
 
 ---
 
-## 🔄 Level 2 (Intermediate) — In Progress
+## ✅ Level 2 (Intermediate) — Completed
 
 | Task | Description | Tools |
 |------|-------------|-------|
-| Task 1 | Regression Analysis | Python, scikit-learn, pandas |
-| Task 2 | Time Series Analysis | Python, pandas, matplotlib, statsmodels |
-| Task 3 | Clustering Analysis (K-Means) | Python, scikit-learn, matplotlib, seaborn |
+| **Task 1** | Regression Analysis | Python, scikit-learn, pandas |
+| **Task 2** | Time Series Analysis | Python, pandas, matplotlib, statsmodels |
+| **Task 3** | Clustering Analysis (K-Means) | Python, scikit-learn, matplotlib, seaborn |
+
+**Datasets Used:** House Prediction Dataset, Stock Prices Dataset (AAPL), Iris Dataset
+
+### Key Highlights
+- Built a Linear Regression model to predict house prices (MEDV), achieving an R² score of ~0.67
+- Identified `RM` (rooms) and `LSTAT` (% lower status population) as the strongest predictors of house price
+- Analyzed AAPL stock price trends (2014–2018) using moving averages (MA-20, MA-50) to smooth daily volatility
+- Performed seasonal decomposition (trend, seasonality, residuals) on AAPL closing prices using statsmodels
+- Applied K-Means clustering on the Iris dataset, using the Elbow Method to confirm the optimal number of clusters (K=3)
+- Visualized clusters in 2D, closely matching the dataset's three natural species groups
+
+📁 [View Level 2 Files](./Level2)
 
 ---
 
