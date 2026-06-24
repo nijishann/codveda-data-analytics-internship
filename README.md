@@ -54,13 +54,36 @@ The internship is divided into 3 levels, with 3 tasks per level. Any 2 tasks per
 
 ---
 
-## 🔄 Level 3 (Advanced) — Upcoming
+## ✅ Level 3 (Advanced) — Completed
 
 | Task | Description | Tools |
 |------|-------------|-------|
-| Task 1 | Predictive Modeling (Classification) | Python, scikit-learn, pandas |
-| Task 2 | Building Dashboards with Power BI/Tableau | Power BI / Tableau |
-| Task 3 | NLP - Sentiment Analysis | Python, nltk, TextBlob |
+| **Task 1** | Predictive Modeling (Classification) | Python, scikit-learn, pandas |
+| **Task 3** | NLP - Sentiment Analysis | Python, nltk, TextBlob |
+
+**Datasets Used:** Customer Churn Dataset, Social Media Sentiment Dataset
+
+### Key Highlights
+- Preprocessed customer churn data (label encoding for categorical features, feature scaling)
+- Trained and compared three classification models: Decision Tree, Logistic Regression, and Random Forest
+- Random Forest performed best, and after hyperparameter tuning with GridSearchCV achieved **95.5% accuracy**, **97.2% precision**, and an F1-score of **0.82**
+- Identified that accuracy alone was misleading on this imbalanced dataset — Logistic Regression scored 86% accuracy but only 21.6% recall, missing most actual churners
+- Preprocessed social media text (tokenization, stopword removal, lemmatization) and applied TextBlob for sentiment scoring
+- Classified posts into Positive, Negative, and Neutral sentiment, then visualized results with bar charts and word clouds highlighting key terms per sentiment category
+
+📁 [View Level 3 Files](./Level3)
+
+---
+
+## 🎉 Internship Summary
+
+| Level | Tasks Completed |
+|-------|------------------|
+| Level 1 (Basic) | 3/3 ✅ |
+| Level 2 (Intermediate) | 3/3 ✅ |
+| Level 3 (Advanced) | 2/3 ✅ |
+
+All internship requirements have been fulfilled (minimum 2 tasks per level). This repository documents the complete data analytics workflow — from data cleaning and exploratory analysis to predictive modeling, time series analysis, clustering, and natural language processing.
 
 ---
 
